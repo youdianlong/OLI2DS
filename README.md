@@ -3,7 +3,7 @@
 
 ## Description
 
-This package includes the python code of the OLIDS(Online learning from Incomplete and Imbalanced Data Streams) which focus on the problem of learning from data streams with incomplete feature space and class-imbalance.
+This package includes the python code of the OLI2DS(Online learning from Incomplete and Imbalanced Data Streams) which focus on the problem of learning from data streams with incomplete feature space and class-imbalance.
 
 ## Requirement
 
