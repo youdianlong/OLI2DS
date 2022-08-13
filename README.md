@@ -5,10 +5,6 @@
 
 This package includes the python code of the OLI2DS(Online learning from Incomplete and Imbalanced Data Streams) which focus on the problem of learning from data streams with incomplete feature space and class-imbalance.
 
-## Requirement
-
-This package was developed with Python 3.6.5. The environment can be find in `requirement.yaml` file.
-
 ## Normalization Codes
 
 ```python
@@ -16,6 +12,10 @@ This package was developed with Python 3.6.5. The environment can be find in `re
 dataset = np.array(dataset).astype(np.float) # transform the type of original data to 'numpy.float' type
 dataset[:, :-1] = preprocessing.scale(dataset[:, :-1]) # normalized data
 ```
+
+## Requirement
+
+This package was developed with Python 3.6.5. The environment can be find in `requirement.yaml` file.
  
  ## Notes
  
