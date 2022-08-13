@@ -8,6 +8,14 @@ This package includes the python code of the OLI2DS(Online learning from Incompl
 ## Requirement
 
 This package was developed with Python 3.6.5. The environment can be find in `requirement.yaml` file.
+
+## Normalization Codes
+
+```python
+# dataset is the original data that read from data set file.
+dataset = np.array(dataset).astype(np.float) # transform the type of original data to 'numpy.float' type
+dataset[:, :-1] = preprocessing.scale(dataset[:, :-1]) # normalized data
+```
  
  ## Notes
  
